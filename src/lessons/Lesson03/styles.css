@@ -1,0 +1,5 @@
+.lesson03-wrapper {
+    display: flex;
+    padding: 80px;
+    gap: 40px;
+}

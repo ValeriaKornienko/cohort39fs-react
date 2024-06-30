@@ -1,10 +1,12 @@
 .button-component {
     height: 70px;
-    width: 150px;
+    width: 4700px;
     padding: 20px;
     border: none;
-    background-color: rgb(19, 59, 145);
+    background-color: rgb(31, 39, 245);
     font-size: 20px;
     color: white;
-    border-radius: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    gap: 10px;
   }
