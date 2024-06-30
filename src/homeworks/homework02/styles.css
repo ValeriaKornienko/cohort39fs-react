@@ -1,19 +1,7 @@
-.card {
+.cards {
     display: flex;
-    flex-direction: column;
     height: fit-content;
-    width: 400px;
-    background-color: blanchedalmond;
-    border-radius: 5%;
-    padding: 30px;
-    gap: 10px;
-}
-
-.avatar {
-    height: 25%;
-}
-
-.text {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
+    width: fit-content;
+    flex-direction: row;
+    gap: 30px;
 }

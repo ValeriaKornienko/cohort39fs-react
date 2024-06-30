@@ -1,11 +1,12 @@
 import './App.css';
-//import Lesson02 from './lessons/Lesson02/Lesson02';
-import Card from './homeworks/homework02/card';
+import Homework02 from './homeworks/homework02/Homework02.js';
+import Lesson03 from './lessons/Lesson03/Lesson03.jsx';
+
 
 function App() {
   return (
     <div className="App">
-       <Card></Card>
+       <Lesson03/>
     </div>
   );
 }
