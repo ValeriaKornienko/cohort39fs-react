@@ -1,6 +1,6 @@
 .button-component {
     height: 70px;
-    width: 4700px;
+    width: 470px;
     padding: 20px;
     border: none;
     background-color: rgb(31, 39, 245);
@@ -9,4 +9,12 @@
     border-radius: 4px;
     cursor: pointer;
     gap: 10px;
+  }
+
+  .main-button {
+    background-color: rgb(19, 59, 145);
+  }
+  
+  .delete-button {
+    background-color: rgb(160, 30, 13);
   }

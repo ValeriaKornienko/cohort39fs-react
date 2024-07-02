@@ -35,9 +35,8 @@ function Lesson03 (){
     return (<div className="lesson03-wrapper"><Card userData={Homer} />
            <Card userData={Marge} />
            <Card userData={Bart} />
-           <Button buttonName={"Get user data"}/>
-           <Button buttonName={"Delete user data"}/>
-           <Button buttonName={"Update user data"}/>
+           <Button />
+           <Button buttonName={"Update data"} />
            </div>
     );
 }
