@@ -3,10 +3,11 @@
     width: 100%;
     padding: 20px;
     border: none;
-    background-color: rgb(31, 39, 245);
+    background-color: rgb(221, 221, 221);
     font-size: 20px;
-    color: white;
+    color: rgb(41, 41, 41);
     border-radius: 4px;
     cursor: pointer;
     gap: 10px;
+    justify-content: center;
   }
