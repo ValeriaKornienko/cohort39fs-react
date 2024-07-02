@@ -1,9 +1,10 @@
 .login-form {
     display: flex;
     flex-direction: column;
-    height: 450px;
+    min-height: 450px;
+    max-height: fit-content;
     width: 590px;
-    border: solid black 1px;
+    border: 1px solid black;
     border-radius: 4px;
     padding: 60px;
     align-items: center;
@@ -11,8 +12,14 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1 {
+.title {
     font-weight: lighter;
     font-size: 24px;
     align-self: start;
+}
+
+.inputs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }

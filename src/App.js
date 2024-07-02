@@ -1,13 +1,10 @@
-import './App.css';
-import Homework02 from './homeworks/homework02/Homework02.js';
-import Lesson03 from './lessons/Lesson03/Lesson03.jsx';
-import Homework03 from './homeworks/homework03/Homework03.jsx';
-
+import "./App.css";
+import Lesson04 from "./lessons/Lesson04/Lesson04.jsx";
 
 function App() {
   return (
     <div className="App">
-       <Homework03/>
+      <Lesson04 />
     </div>
   );
 }
