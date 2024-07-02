@@ -1,11 +1,11 @@
-import './styles.css';
+import "./styles.css";
 
-
-function Button({type = "submit", name = "Login"}) {
-
-    return (<button className="button-component" type= {type}>
-    {name}
-  </button>)
+function Button({ type, name, onClick}) {
+  return (
+    <button onClick={onClick} className="button-component" type={type}>
+      {name}
+    </button>
+  );
 }
 
 export default Button;
